@@ -14,14 +14,14 @@ export default function Button({ array }) {
                 <button
                     key={index}
                     onClick={() => handleButtonClick(index)}
-                    className={`rounded-xl px-6 text-lg py-2 text-center 
+                    className={`rounded-xl px-7 text-lg py-3 text-center 
                         ${isSelected ? 'bg-[#E0B6FF] text-[#2E004E]' : 'bg-white text-black'}
                     `}
                 >
                     {item.text}
                 </button>
             );
-        })
+        }) 
     );
 }
 
